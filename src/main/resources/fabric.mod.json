@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "modtutoriel",
+  "version": "${version}",
+
+  "name": "Mod Tutoriel",
+  "description": "Un mod tutoriel",
+  "authors": [
+    "Fire_Blaim"
+  ],
+  "contact": {
+    "email": "fireblaimcaca@gmail.com",
+    "irc": "irc://irc.monsupermod.net:6667/",
+    "homepage": "https://monsupermod.fr/",
+    "sources": "https://github.com/Fire_Blaim/monsupermod/",
+    "issues": "https://github.com/Fire_Blaim/monsupermod/issues/"
+  },
+
+  "license": "GPL-3.0-or-later",
+  "icon": "",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "fr.fireblaim.mccommunity.ModTutoriel"
+    ],
+    "client": [
+      "fr.fireblaim.mccommunity.ModTutorielClient"
+    ],
+    "server": [
+      "fr.fireblaim.mccommunity.ModTutorielServer"
+    ]
+  },
+  "mixins": [
+
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+
+  }
+}
